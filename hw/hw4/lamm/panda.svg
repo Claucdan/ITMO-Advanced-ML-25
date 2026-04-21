@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400">
+  <!-- Фон: зелень -->
+  <rect x="0" y="0" width="600" height="400" fill="#C6E2B5" />
+  
+  <!-- Бамбуковые деревья -->
+  <rect x="50" y="50" width="20" height="200" fill="#6495ED" />
+  <rect x="150" y="50" width="20" height="250" fill="#6495ED" />
+  <rect x="250" y="50" width="20" height="200" fill="#6495ED" />
+  <rect x="350" y="50" width="20" height="250" fill="#6495ED" />
+  <rect x="450" y="50" width="20" height="200" fill="#6495ED" />
+  
+  <!-- Пень -->
+  <circle cx="300" cy="350" r="50" fill="#964B00" />
+  
+  <!-- Тело панды -->
+  <circle cx="300" cy="280" r="80" fill="#FFFFFF" />
+  <circle cx="300" cy="280" r="80" stroke="#000000" stroke-width="2" />
+  
+  <!-- Уши панды -->
+  <circle cx="270" cy="240" r="30" fill="#FFFFFF" />
+  <circle cx="270" cy="240" r="30" stroke="#000000" stroke-width="2" />
+  <circle cx="330" cy="240" r="30" fill="#FFFFFF" />
+  <circle cx="330" cy="240" r="30" stroke="#000000" stroke-width="2" />
+  
+  <!-- Глаза панды -->
+  <circle cx="290" cy="260" r="10" fill="#000000" />
+  <circle cx="310" cy="260" r="10" fill="#000000" />
+  
+  <!-- Нос панды -->
+  <circle cx="300" cy="270" r="5" fill="#000000" />
+  
+  <!-- Бамбук в руках панды -->
+  <rect x="280" y="220" width="20" height="60" fill="#6495ED" />
+  <rect x="300" y="220" width="20" height="60" fill="#6495ED" />
+  
+  <!-- Лапы панды -->
+  <circle cx="250" cy="320" r="20" fill="#FFFFFF" />
+  <circle cx="250" cy="320" r="20" stroke="#000000" stroke-width="2" />
+  <circle cx="350" cy="320" r="20" fill="#FFFFFF" />
+  <circle cx="350" cy="320" r="20" stroke="#000000" stroke-width="2" />
+</svg>

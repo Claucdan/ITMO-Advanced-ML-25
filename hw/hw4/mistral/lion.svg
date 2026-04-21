@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Небо -->
+    <rect width="800" height="300" fill="skyblue"/>
+    <!-- Трава -->
+    <rect y="300" width="800" height="300" fill="green"/>
+    <!-- Тело льва -->
+    <path d="M400,450 Q350,400 300,450 Q250,500 300,550 Q350,600 400,550 Q450,600 500,550 Q550,500 500,450 Q450,400 400,450" fill="sienna" stroke="black" stroke-width="2"/>
+    <!-- Грива -->
+    <path d="M400,350 Q350,300 300,350 Q250,400 300,450 Q350,500 400,450 Q450,500 500,450 Q550,400 500,350 Q450,300 400,350" fill="saddlebrown" stroke="black" stroke-width="2"/>
+    <!-- Глаза -->
+    <circle cx="370" cy="370" r="10" fill="white"/>
+    <circle cx="430" cy="370" r="10" fill="white"/>
+    <circle cx="370" cy="370" r="5" fill="black"/>
+    <circle cx="430" cy="370" r="5" fill="black"/>
+    <!-- Нос -->
+    <polygon points="400,400 380,420 420,420" fill="black"/>
+    <!-- Рот -->
+    <path d="M380,420 Q400,440 420,420" stroke="black" fill="transparent"/>
+    <!-- Уши -->
+    <path d="M320,320 Q300,300 320,280 Q340,300 320,320" fill="saddlebrown" stroke="black" stroke-width="2"/>
+    <path d="M480,320 Q500,300 480,280 Q460,300 480,320" fill="saddlebrown" stroke="black" stroke-width="2"/>
+    <!-- Лапы -->
+    <path d="M300,550 Q280,580 300,600 Q320,620 300,650 Q280,680 300,700" fill="sienna" stroke="black" stroke-width="2"/>
+    <path d="M500,550 Q520,580 500,600 Q480,620 500,650 Q520,680 500,700" fill="sienna" stroke="black" stroke-width="2"/>
+    <path d="M350,550 Q330,580 350,600 Q370,620 350,650 Q330,680 350,700" fill="sienna" stroke="black" stroke-width="2"/>
+    <path d="M450,550 Q470,580 450,600 Q430,620 450,650 Q470,680 450,700" fill="sienna" stroke="black" stroke-width="2"/>
+</svg>

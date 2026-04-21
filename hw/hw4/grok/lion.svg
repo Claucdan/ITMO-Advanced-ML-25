@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- Голубое небо -->
+  <rect width="800" height="350" fill="#87CEEB" />
+
+  <!-- Зелёная трава (фон) -->
+  <rect y="350" width="800" height="150" fill="#228B22" />
+
+  <!-- Травинки (несколько штук для саванны) -->
+  <path d="M50,350 Q40,310 35,280" fill="transparent" stroke="#1E7A1E" stroke-width="6" stroke-linecap="round" />
+  <path d="M120,350 Q115,305 105,275" fill="transparent" stroke="#1E7A1E" stroke-width="5" stroke-linecap="round" />
+  <path d="M190,350 Q180,315 200,285" fill="transparent" stroke="#1E7A1E" stroke-width="7" stroke-linecap="round" />
+  <path d="M280,350 Q270,300 255,270" fill="transparent" stroke="#1E7A1E" stroke-width="4" stroke-linecap="round" />
+  <path d="M370,350 Q365,320 380,290" fill="transparent" stroke="#1E7A1E" stroke-width="6" stroke-linecap="round" />
+  <path d="M480,350 Q490,315 475,280" fill="transparent" stroke="#1E7A1E" stroke-width="5" stroke-linecap="round" />
+  <path d="M620,350 Q610,305 630,275" fill="transparent" stroke="#1E7A1E" stroke-width="4" stroke-linecap="round" />
+  <path d="M720,350 Q730,310 715,285" fill="transparent" stroke="#1E7A1E" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Хвост (за телом) -->
+  <!-- Основная часть хвоста -->
+  <path d="M145,405 Q110,425 85,430 Q65,435 60,415" fill="transparent" stroke="#E0B07F" stroke-width="22" stroke-linecap="round" />
+  <!-- Кисточка хвоста (бурая) -->
+  <ellipse cx="53" cy="412" rx="13" ry="19" fill="#A0522D" transform="rotate(-40 60 415)" />
+
+  <!-- Тело льва (охровое) -->
+  <ellipse cx="270" cy="385" rx="125" ry="58" fill="#E0B07F" stroke="#26334A" stroke-width="10" />
+
+  <!-- Задняя нога (согнутая, чуть за телом) -->
+  <rect x="155" y="395" width="38" height="68" rx="15" fill="#E0B07F" stroke="#26334A" stroke-width="6" transform="rotate(35 165 405)" />
+
+  <!-- Передняя нога 1 (ближняя, согнутая) -->
+  <!-- Верхняя часть ноги -->
+  <path d="M355,395 Q370,415 365,435" fill="transparent" stroke="#E0B07F" stroke-width="35" stroke-linecap="round" />
+  <!-- Нижняя часть + лапа -->
+  <rect x="355" y="435" width="32" height="28" rx="10" fill="#E0B07F" stroke="#26334A" stroke-width="6" />
+  <!-- Пальцы лапы -->
+  <ellipse cx="362" cy="458" rx="8" ry="5" fill="#E0B07F" />
+  <ellipse cx="372" cy="457" rx="8" ry="5" fill="#E0B07F" />
+  <ellipse cx="382" cy="455" rx="7" ry="4.5" fill="#E0B07F" />
+
+  <!-- Передняя нога 2 (чуть левее) -->
+  <!-- Верхняя часть ноги -->
+  <path d="M325,395 Q335,418 330,435" fill="transparent" stroke="#E0B07F" stroke-width="32" stroke-linecap="round" />
+  <!-- Нижняя часть + лапа -->
+  <rect x="320" y="432" width="28" height="25" rx="10" fill="#E0B07F" stroke="#26334A" stroke-width="5" />
+
+  <!-- Грива (бурая) -->
+  <ellipse cx="415" cy="305" rx="83" ry="77" fill="#A0522D" />
+
+  <!-- Голова льва (охровая) -->
+  <ellipse cx="415" cy="305" rx="49" ry="51" fill="#E0B07F" stroke="#26334A" stroke-width="6" />
+
+  <!-- Уши -->
+  <!-- Левое ухо -->
+  <ellipse cx="370" cy="265" rx="19" ry="24" fill="#E0B07F" stroke="#26334A" stroke-width="5" />
+  <ellipse cx="368" cy="265" rx="10" ry="13" fill="#C38F6E" />
+  <!-- Правое ухо -->
+  <ellipse cx="462" cy="265" rx="19" ry="24" fill="#E0B07F" stroke="#26334A" stroke-width="5" />
+  <ellipse cx="460" cy="265" rx="10" ry="13" fill="#C38F6E" />
+
+  <!-- Глаза (смотрят вверх — зрачки сдвинуты вверх) -->
+  <!-- Левый глаз -->
+  <ellipse cx="385" cy="293" rx="9" ry="11" fill="#F8F8F8" />
+  <ellipse cx="385" cy="289" rx="4.5" ry="5" fill="#1C2C2C" />
+  <!-- Правый глаз -->
+  <ellipse cx="443" cy="293" rx="9" ry="11" fill="#F8F8F8" />
+  <ellipse cx="443" cy="289" rx="4.5" ry="5" fill="#1C2C2C" />
+
+  <!-- Нос -->
+  <path d="M410,315 L404,323 L416,323 Z" fill="#26334A" />
+
+  <!-- Морда -->
+  <ellipse cx="415" cy="323" rx="17" ry="12" fill="#E0B07F" />
+
+  <!-- Рот -->
+  <path d="M405,335 Q415,340 425,335" fill="transparent" stroke="#26334A" stroke-width="2.5" />
+
+  <!-- Усы -->
+  <!-- Левая сторона -->
+  <line x1="397" y1="328" x2="375" y2="325" stroke="#26334A" stroke-width="1.5" />
+  <line x1="396" y1="332" x2="372" y2="331" stroke="#26334A" stroke-width="1.5" />
+  <line x1="396" y1="336" x2="377" y2="339" stroke="#26334A" stroke-width="1.5" />
+  <!-- Правая сторона -->
+  <line x1="433" y1="328" x2="455" y2="325" stroke="#26334A" stroke-width="1.5" />
+  <line x1="433" y1="332" x2="457" y2="331" stroke="#26334A" stroke-width="1.5" />
+  <line x1="433" y1="336" x2="453" y2="339" stroke="#26334A" stroke-width="1.5" />
+
+</svg>
