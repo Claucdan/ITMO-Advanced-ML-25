@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+
+  <!-- Небо -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4aa8d8"/>
+      <stop offset="100%" stop-color="#a8d8f0"/>
+    </linearGradient>
+    <linearGradient id="grassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5aaa3a"/>
+      <stop offset="100%" stop-color="#3a7a20"/>
+    </linearGradient>
+    <radialGradient id="lionBody" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d4a055"/>
+      <stop offset="100%" stop-color="#b8822a"/>
+    </radialGradient>
+    <radialGradient id="maneGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7a4a1a"/>
+      <stop offset="100%" stop-color="#4a2a08"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Небо -->
+  <rect x="0" y="0" width="800" height="320" fill="url(#skyGrad)"/>
+
+  <!-- Облака -->
+  <g opacity="0.85">
+    <ellipse cx="150" cy="80" rx="70" ry="30" fill="white"/>
+    <ellipse cx="190" cy="70" rx="55" ry="28" fill="white"/>
+    <ellipse cx="120" cy="90" rx="45" ry="22" fill="white"/>
+  </g>
+  <g opacity="0.75">
+    <ellipse cx="580" cy="60" rx="80" ry="28" fill="white"/>
+    <ellipse cx="630" cy="50" rx="60" ry="24" fill="white"/>
+    <ellipse cx="550" cy="68" rx="50" ry="20" fill="white"/>
+  </g>
+
+  <!-- Земля / саванна -->
+  <rect x="0" y="300" width="800" height="200" fill="url(#grassGrad)"/>
+
+  <!-- Трава на переднем плане -->
+  <g fill="#4a9a2a" stroke="none">
+    <!-- Пучки травы -->
+    <polygon points="30,300 35,270 40,300"/>
+    <polygon points="60,300 67,265 74,300"/>
+    <polygon points="90,300 96,275 102,300"/>
+    <polygon points="130,300 136,268 142,300"/>
+    <polygon points="680,300 686,272 692,300"/>
+    <polygon points="710,300 717,260 724,300"/>
+    <polygon points="750,300 756,270 762,300"/>
+    <polygon points="780,300 786,265 792,300"/>
+
+    <polygon points="20,305 26,278 32,305"/>
+    <polygon points="50,305 57,272 64,305"/>
+    <polygon points="170,302 176,275 182,302"/>
+    <polygon points="640,302 646,278 652,302"/>
+    <polygon points="730,302 736,275 742,302"/>
+    <polygon points="760,302 767,268 774,302"/>
+  </g>
+
+  <!-- Тело льва (лежит на боку, смотрит вверх) -->
+  <!-- Основное тело -->
+  <ellipse cx="420" cy="355" rx="170" ry="65" fill="#cc8e30" transform="rotate(-8, 420, 355)"/>
+
+  <!-- Задние лапы -->
+  <ellipse cx="570" cy="385" rx="55" ry="22" fill="#c07a20" transform="rotate(10, 570, 385)"/>
+  <ellipse cx="560" cy="395" rx="48" ry="18" fill="#b87020" transform="rotate(15, 560, 395)"/>
+  <!-- Когти задних лап -->
+  <ellipse cx="600" cy="400" rx="20" ry="10" fill="#b86c1a"/>
+  <ellipse cx="596" cy="402" rx="5" ry="8" fill="#a05a10"/>
+  <ellipse cx="604" cy="401" rx="5" ry="8" fill="#a05a10"/>
+
+  <!-- Передние лапы (вытянуты вперёд) -->
+  <ellipse cx="265" cy="390" rx="60" ry="20" fill="#c07a20" transform="rotate(-5, 265, 390)"/>
+  <ellipse cx="255" cy="400" rx="50" ry="16" fill="#b87020" transform="rotate(-8, 255, 400)"/>
+  <!-- Когти передних лап -->
+  <ellipse cx="215" cy="400" rx="22" ry="10" fill="#b86c1a"/>
+  <ellipse cx="209" cy="402" rx="5" ry="8" fill="#a05a10"/>
+  <ellipse cx="218" cy="401" rx="5" ry="8" fill="#a05a10"/>
+  <ellipse cx="227" cy="400" rx="5" ry="8" fill="#a05a10"/>
+
+  <!-- Шея -->
+  <ellipse cx="280" cy="340" rx="55" ry="45" fill="#c88020"/>
+
+  <!-- Грива -->
+  <!-- Внешний слой гривы -->
+  <ellipse cx="265" cy="318" rx="95" ry="88" fill="#5a2e08"/>
+  <!-- Средний слой гривы -->
+  <ellipse cx="268" cy="320" rx="80" ry="75" fill="#6e3a0e"/>
+  <!-- Внутренний слой (переход к морде) -->
+  <ellipse cx="272" cy="325" rx="65" ry="60" fill="#7a4210"/>
+
+  <!-- Голова льва (повёрнута вверх) -->
+  <ellipse cx="272" cy="308" rx="55" ry="50" fill="#cc8e30"/>
+
+  <!-- Морда (вытянута, смотрит вверх) -->
+  <ellipse cx="255" cy="285" rx="30" ry="22" fill="#d4a040"/>
+  <!-- Нос -->
+  <ellipse cx="248" cy="278" rx="10" ry="7" fill="#a06030"/>
+  <ellipse cx="248" cy="276" rx="6" ry="4" fill="#7a3a18"/>
+
+  <!-- Глаза (закрытые / смотрящие вверх) -->
+  <!-- Правый глаз -->
+  <ellipse cx="278" cy="295" rx="10" ry="8" fill="#3a2000"/>
+  <ellipse cx="278" cy="295" rx="7" ry="5" fill="#f0c060"/>
+  <ellipse cx="278" cy="295" rx="4" ry="4" fill="#1a1000"/>
+  <ellipse cx="276" cy="293" rx="2" ry="2" fill="white" opacity="0.6"/>
+  <!-- Левый глаз -->
+  <ellipse cx="255" cy="290" rx="9" ry="7" fill="#3a2000"/>
+  <ellipse cx="255" cy="290" rx="6" ry="4.5" fill="#f0c060"/>
+  <ellipse cx="255" cy="290" rx="3.5" ry="3.5" fill="#1a1000"/>
+  <ellipse cx="253" cy="288" rx="1.5" ry="1.5" fill="white" opacity="0.6"/>
+
+  <!-- Усы -->
+  <line x1="238" y1="280" x2="200" y2="272" stroke="#e8d0a0" stroke-width="1.5" opacity="0.8"/>
+  <line x1="238" y1="283" x2="198" y2="280" stroke="#e8d0a0" stroke-width="1.5" opacity="0.8"/>
+  <line x1="238" y1="286" x2="200" y2="290" stroke="#e8d0a0" stroke-width="1.5" opacity="0.8"/>
+
+  <line x1="258" y1="279" x2="290" y2="268" stroke="#e8d0a0" stroke-width="1.5" opacity="0.8"/>
+  <line x1="258" y1="282" x2="292" y2="278" stroke="#e8d0a0" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- Уши -->
+  <ellipse cx="300" cy="278" rx="14" ry="12" fill="#b87020"/>
+  <ellipse cx="300" cy="278" rx="8" ry="7" fill="#7a3a10"/>
+  <ellipse cx="240" cy="270" rx="12" ry="10" fill="#b87020"/>
+  <ellipse cx="240" cy="270" rx="7" ry="6" fill="#7a3a10"/>
+
+  <!-- Хвост -->
+  <path d="M 580 375 Q 640 340 660 310 Q 670 295 660 285" stroke="#c07a20" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Кисточка хвоста -->
+  <ellipse cx="658" cy="278" rx="18" ry="14" fill="#5a2e08" transform="rotate(-20, 658, 278)"/>
+  <ellipse cx="655" cy="275" rx="12" ry="10" fill="#4a2008" transform="rotate(-20, 655, 275)"/>
+
+  <!-- Пятна на теле (текстура) -->
+  <ellipse cx="380" cy="340" rx="15" ry="8" fill="#b87828" opacity="0.4"/>
+  <ellipse cx="430" cy="360" rx="12" ry="6" fill="#b87828" opacity="0.3"/>
+  <ellipse cx="490" cy="345" rx="14" ry="7" fill="#b87828" opacity="0.35"/>
+
+  <!-- Трава перед львом (на переднем плане) -->
+  <g fill="#3a8a20">
+    <polygon points="300,420 306,390 312,420"/>
+    <polygon points="340,415 347,382 354,415"/>
+    <polygon points="390,418 397,388 404,418"/>
+    <polygon points="450,420 457,385 464,420"/>
+    <polygon points="500,415 507,383 514,415"/>
+    <polygon points="150,418 157,388 164,418"/>
+    <polygon points="200,420 207,385 214,420"/>
+    <polygon points="250,415 258,380 266,415"/>
+  </g>
+
+  <!-- Солнце -->
+  <circle cx="680" cy="80" r="42" fill="#ffe060" opacity="0.95"/>
+  <circle cx="680" cy="80" r="34" fill="#ffec80"/>
+  <!-- Лучи солнца -->
+  <g stroke="#ffe060" stroke-width="3" opacity="0.7">
+    <line x1="680" y1="28" x2="680" y2="18"/>
+    <line x1="680" y1="132" x2="680" y2="142"/>
+    <line x1="628" y1="80" x2="618" y2="80"/>
+    <line x1="732" y1="80" x2="742" y2="80"/>
+    <line x1="644" y1="44" x2="637" y2="37"/>
+    <line x1="716" y1="116" x2="723" y2="123"/>
+    <line x1="716" y1="44" x2="723" y2="37"/>
+    <line x1="644" y1="116" x2="637" y2="123"/>
+  </g>
+
+  <!-- Акации на горизонте -->
+  <!-- Дерево 1 -->
+  <rect x="95" y="240" width="8" height="65" fill="#6a4010"/>
+  <ellipse cx="99" cy="235" rx="38" ry="15" fill="#3a7a10"/>
+  <ellipse cx="80" cy="240" rx="22" ry="10" fill="#4a8a18"/>
+  <ellipse cx="118" cy="238" rx="25" ry="11" fill="#4a8a18"/>
+
+  <!-- Дерево 2 -->
+  <rect x="685" y="250" width="7" height="55" fill="#6a4010"/>
+  <ellipse cx="688" cy="246" rx="32" ry="13" fill="#3a7a10"/>
+  <ellipse cx="670" cy="250" rx="20" ry="9" fill="#4a8a18"/>
+  <ellipse cx="706" cy="249" rx="22" ry="10" fill="#4a8a18"/>
+
+  <!-- Дерево 3 (маленькое вдали) -->
+  <rect x="510" y="265" width="5" height="38" fill="#7a4a18"/>
+  <ellipse cx="512" cy="262" rx="22" ry="9" fill="#4a8a18"/>
+  <ellipse cx="498" cy="265" rx="14" ry="7" fill="#3a7a10"/>
+  <ellipse cx="526" cy="264" rx="15" ry="7" fill="#3a7a10"/>
+
+</svg>

@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <!-- Градиент для лесного фона -->
+    <linearGradient id="forestBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#C8E6C9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+    </linearGradient>
+    <!-- Градиент для земли -->
+    <linearGradient id="groundGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1B5E20;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Фон -->
+  <rect width="800" height="600" fill="url(#forestBg)"/>
+
+  <!-- Дальний бамбук (Серые/зеленые силуэты для глубины) -->
+  <g opacity="0.4" fill="#388E3C">
+    <rect x="50" y="0" width="12" height="600" rx="6"/>
+    <rect x="120" y="0" width="10" height="600" rx="5"/>
+    <rect x="680" y="0" width="14" height="600" rx="7"/>
+    <rect x="750" y="0" width="11" height="600" rx="5"/>
+    <!-- Листья на заднем плане -->
+    <path d="M56,150 Q80,140 70,110 Q55,130 56,150Z" fill="#2E7D32"/>
+    <path d="M686,200 Q710,190 700,160 Q685,180 686,200Z" fill="#2E7D32"/>
+    <path d="M124,100 Q148,90 138,60 Q123,80 124,100Z" fill="#2E7D32"/>
+  </g>
+
+  <!-- Панда на заднем плане (Слева) -->
+  <g transform="translate(140, 350)">
+    <ellipse cx="0" cy="60" rx="35" ry="45" fill="#E0E0E0"/> <!-- Тело -->
+    <circle cx="0" cy="0" r="30" fill="white"/> <!-- Голова -->
+    <circle cx="-18" cy="-22" r="12" fill="black"/> <!-- Ухо -->
+    <circle cx="18" cy="-22" r="12" fill="black"/> <!-- Ухо -->
+    <ellipse cx="-12" cy="-5" rx="8" ry="10" fill="black" transform="rotate(-15, -12, -5)"/> <!-- Глаз -->
+    <ellipse cx="12" cy="-5" rx="8" ry="10" fill="black" transform="rotate(15, 12, -5)"/> <!-- Глаз -->
+    <circle cx="-12" cy="-7" r="2.5" fill="white"/> <!-- Блик -->
+    <circle cx="12" cy="-7" r="2.5" fill="white"/> <!-- Блик -->
+    <ellipse cx="0" cy="8" rx="5" ry="3" fill="black"/> <!-- Нос -->
+  </g>
+
+  <!-- Панда на заднем плане (Справа) -->
+  <g transform="translate(660, 380)">
+    <ellipse cx="0" cy="60" rx="30" ry="40" fill="#E0E0E0"/>
+    <circle cx="0" cy="0" r="28" fill="white"/>
+    <circle cx="-16" cy="-20" r="11" fill="black"/>
+    <circle cx="16" cy="-20" r="11" fill="black"/>
+    <ellipse cx="-10" cy="-3" rx="7" ry="9" fill="black" transform="rotate(-15, -10, -3)"/>
+    <ellipse cx="10" cy="-3" rx="7" ry="9" fill="black" transform="rotate(15, 10, -3)"/>
+    <circle cx="-10" cy="-5" r="2" fill="white"/>
+    <circle cx="10" cy="-5" r="2" fill="white"/>
+    <ellipse cx="0" cy="7" rx="4" ry="3" fill="black"/>
+  </g>
+
+  <!-- Земля -->
+  <path d="M0,520 Q200,490 400,510 T800,500 L800,600 L0,600 Z" fill="url(#groundGrad)"/>
+
+  <!-- === ГЛАВНАЯ ПАНДА (Центр) === -->
+  <g transform="translate(400, 460)">
+    <!-- Задние лапы (Черные) -->
+    <ellipse cx="-45" cy="50" rx="35" ry="18" fill="black"/>
+    <ellipse cx="45" cy="50" rx="35" ry="18" fill="black"/>
+    
+    <!-- Ступни -->
+    <ellipse cx="-70" cy="55" rx="15" ry="10" fill="#222"/>
+    <ellipse cx="70" cy="55" rx="15" ry="10" fill="#222"/>
+
+    <!-- Тело (Белое) -->
+    <ellipse cx="0" cy="10" rx="65" ry="60" fill="white" stroke="#E0E0E0" stroke-width="1"/>
+
+    <!-- Бамбук в руках (Находится между телом и головой) -->
+    <g>
+      <!-- Ствол 1 -->
+      <rect x="-5" y="-180" width="10" height="250" rx="5" fill="#7CB342"/>
+      <!-- Узлы на стволе -->
+      <rect x="-7" y="-100" width="14" height="4" rx="2" fill="#558B2F"/>
+      <rect x="-7" y="-40" width="14" height="4" rx="2" fill="#558B2F"/>
+      <!-- Листья -->
+      <path d="M5,-150 Q35,-160 45,-180 Q25,-155 5,-150Z" fill="#33691E"/>
+      <path d="M-5,-120 Q-40,-130 -50,-150 Q-30,-125 -5,-120Z" fill="#33691E"/>
+      <path d="M5,-80 Q30,-95 25,-110 Q15,-90 5,-80Z" fill="#558B2F"/>
+      
+      <!-- Ствол 2 (Сзади, тоньше) -->
+      <rect x="8" y="-160" width="8" height="230" rx="4" fill="#9CCC65"/>
+      <path d="M16,-130 Q40,-140 35,-160 Q25,-135 16,-130Z" fill="#33691E"/>
+    </g>
+
+    <!-- Руки/Лапы (Черные, обхватывают бамбук) -->
+    <path d="M-45,-20 Q-70,-10 -60,20 Q-50,40 -20,30 Q0,15 -10,-10 Q-20,-25 -45,-20Z" fill="black"/> <!-- Левая рука -->
+    <path d="M45,-20 Q70,-10 60,20 Q50,40 20,30 Q0,15 10,-10 Q20,-25 45,-20Z" fill="black"/> <!-- Правая рука -->
+
+    <!-- Голова -->
+    <circle cx="0" cy="-70" r="50" fill="white" stroke="#E0E0E0" stroke-width="1"/>
+    
+    <!-- Уши -->
+    <circle cx="-35" cy="-105" r="18" fill="black"/>
+    <circle cx="35" cy="-105" r="18" fill="black"/>
+
+    <!-- Глаза-пятна -->
+    <ellipse cx="-20" cy="-75" rx="16" ry="20" fill="black" transform="rotate(-10, -20, -75)"/>
+    <ellipse cx="20" cy="-75" rx="16" ry="20" fill="black" transform="rotate(10, 20, -75)"/>
+    
+    <!-- Белые зрачки (Смотрят на бамбук) -->
+    <circle cx="-18" cy="-78" r="5" fill="white"/>
+    <circle cx="22" cy="-78" r="5" fill="white"/>
+    
+    <!-- Нос -->
+    <ellipse cx="0" cy="-55" rx="7" ry="5" fill="black"/>
+    
+    <!-- Рот (Слегка открыт, жует) -->
+    <path d="M-8,-48 Q0,-42 8,-48" stroke="black" stroke-width="2" fill="none"/>
+    <path d="M-5,-48 Q0,-40 5,-48" fill="#D32F2F" opacity="0.6"/> <!-- Язык/пасть -->
+  </g>
+
+  <!-- Передний план: Бамбуковые стебли по краям для рамки -->
+  <g>
+    <!-- Левый передний стебель -->
+    <rect x="-5" y="0" width="20" height="600" rx="10" fill="#689F38"/>
+    <rect x="-7" y="150" width="24" height="6" rx="3" fill="#33691E"/>
+    <rect x="-7" y="350" width="24" height="6" rx="3" fill="#33691E"/>
+    <!-- Листья спереди -->
+    <path d="M15,100 Q60,80 80,50 Q50,85 15,100Z" fill="#558B2F"/>
+    <path d="M15,330 Q55,310 75,285 Q45,315 15,330Z" fill="#558B2F"/>
+
+    <!-- Правый передний стебель -->
+    <rect x="785" y="0" width="20" height="600" rx="10" fill="#689F38"/>
+    <rect x="783" y="200" width="24" height="6" rx="3" fill="#33691E"/>
+    <rect x="783" y="450" width="24" height="6" rx="3" fill="#33691E"/>
+    <!-- Листья спереди -->
+    <path d="M785,150 Q740,130 720,100 Q750,135 785,150Z" fill="#558B2F"/>
+    <path d="M785,420 Q745,400 730,375 Q755,405 785,420Z" fill="#558B2F"/>
+  </g>
+</svg>

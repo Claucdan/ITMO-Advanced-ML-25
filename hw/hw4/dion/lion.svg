@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Небо -->
+  <rect width="100%" height="100%" fill="#87CEEB" />
+
+  <!-- Трава -->
+  <polygon points="0,400 800,400 800,600 0,600" fill="#228B22" />
+
+  <!-- Лев (упрощённая форма) -->
+  <!-- Тело -->
+  <ellipse cx="350" cy="450" rx="60" ry="40" fill="#D2691E" />
+  <!-- Голова -->
+  <circle cx="350" cy="400" r="30" fill="#D2691E" />
+  <!-- Глаза -->
+  <circle cx="340" cy="390" r="5" fill="black" />
+  <circle cx="360" cy="390" r="5" fill="black" />
+  <!-- Рот -->
+  <path d="M345,405 Q350,410 355,405" stroke="black" stroke-width="2" fill="none" />
+  <!-- Грива -->
+  <path d="M320,350 Q350,300 380,350" fill="#8B4513" />
+  <path d="M300,370 Q350,320 400,370" fill="#8B4513" />
+  <path d="M280,390 Q350,340 420,390" fill="#8B4513" />
+
+  <!-- Солнце -->
+  <circle cx="700" cy="100" r="50" fill="#FFD700" />
+  <circle cx="700" cy="100" r="40" fill="#FFA500" />
+  <circle cx="700" cy="100" r="30" fill="#FF4500" />
+</svg>
